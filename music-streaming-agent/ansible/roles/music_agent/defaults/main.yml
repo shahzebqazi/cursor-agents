@@ -1,0 +1,9 @@
+---
+music_agent_install_root: /opt/cursor-music-streaming-agent
+# Match a real account on the target host (override in inventory / -e).
+music_agent_user: pi
+music_agent_group: pi
+music_agent_listen_host: "0.0.0.0"
+music_agent_listen_port: 8765
+# Set in inventory or `-e` / group_vars (do not commit secrets):
+music_agent_mpd_host: 'REPLACE_WITH_PASSWORD_OR_EMPTY@127.0.0.1'

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>mastodon-agent</title>
+    <meta
+      name="description"
+      content="A small toolkit for posting to Mastodon from the terminal: UTF-8 drafts, .env credentials, Mastodon API."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" role="banner">
+      <img
+        src="images/hero.png"
+        alt=""
+        width="1600"
+        height="640"
+        decoding="async"
+      />
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-content">
+        <h1>mastodon-agent</h1>
+        <p>
+          Post and iterate on the fediverse from the same place you keep drafts and scripts—without
+          putting tokens in chat or in git.
+        </p>
+        <div class="badge-row" aria-label="Topics">
+          <span class="badge">Mastodon</span>
+          <span class="badge">Fediverse</span>
+          <span class="badge">Python</span>
+          <span class="badge">Open source</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section id="about" aria-labelledby="about-heading">
+        <h2 id="about-heading">What this is</h2>
+        <div class="card">
+          <p>
+            This repository is a small, practical foundation for posting to Mastodon via the API:
+            compose posts as plain <strong>UTF-8</strong> text, keep secrets in <code>.env</code>,
+            and run <code>python3 scripts/post_status.py …</code> from your terminal or automation.
+          </p>
+          <p>
+            The goal is to evolve it into a fuller <strong>posting and management</strong> toolkit
+            as you use Mastodon more—drafts, scheduling ideas, media uploads, and admin helpers can
+            layer on over time.
+          </p>
+        </div>
+      </section>
+
+      <section id="start" aria-labelledby="start-heading">
+        <h2 id="start-heading">Quick start</h2>
+        <div class="card">
+          <ol>
+            <li>Clone the repo and copy <code>.env.example</code> to <code>.env</code>.</li>
+            <li>
+              In Mastodon: <strong>Preferences → Development</strong> → create an application with
+              <code>write:statuses</code> (and add read scopes later if needed).
+            </li>
+            <li>
+              Put your instance URL and access token in <code>.env</code>—never commit that file.
+            </li>
+            <li>
+              Write your post in a UTF-8 file and run
+              <code>python3 scripts/post_status.py your_post.txt</code>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="roadmap" aria-labelledby="roadmap-heading">
+        <h2 id="roadmap-heading">Where it can go</h2>
+        <div class="card">
+          <ul class="clean">
+            <li>Draft/review flow (templates, thread splitting)</li>
+            <li>Safe patterns for automation (rate limits, visibility defaults)</li>
+            <li>Optional media upload and alt-text helpers</li>
+            <li>Lightweight bookmarks or moderation notes for power users</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="repo" aria-labelledby="repo-heading">
+        <h2 id="repo-heading">Repository</h2>
+        <div class="card cta">
+          <a
+            class="btn"
+            href="https://github.com/shahzebqazi/cursor-agents/tree/main/mastodon-agent"
+            >View on GitHub</a
+          >
+          <a class="btn btn-secondary" href="https://github.com/shahzebqazi/cursor-agents/blob/main/mastodon-agent/README.md"
+            >Read the README</a
+          >
+        </div>
+      </section>
+
+      <footer>
+        <p>
+          Hero image is AI-generated art for this project page. Code and docs are MIT licensed;
+          see the repository for details.
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>

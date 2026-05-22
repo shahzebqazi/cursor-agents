@@ -1,0 +1,64 @@
+---
+- name: Ensure OS packages for agent runtime
+  ansible.builtin.apt:
+    update_cache: true
+    cache_valid_time: 3600
+    name:
+      - python3
+      - python3-venv
+      - python3-pip
+      - mpc
+    state: present
+
+- name: Ensure install root exists
+  ansible.builtin.file:
+    path: "{{ music_agent_install_root }}"
+    state: directory
+    owner: "{{ music_agent_user }}"
+    group: "{{ music_agent_group }}"
+    mode: "0755"
+
+- name: Create venv
+  ansible.builtin.command: python3 -m venv "{{ music_agent_install_root }}/.venv"
+  args:
+    creates: "{{ music_agent_install_root }}/.venv/bin/python"
+
+- name: Fix venv ownership
+  ansible.builtin.file:
+    path: "{{ music_agent_install_root }}/.venv"
+    state: directory
+    owner: "{{ music_agent_user }}"
+    group: "{{ music_agent_group }}"
+    recurse: true
+
+- name: Install package (editable)
+  ansible.builtin.pip:
+    name: "{{ music_agent_install_root }}"
+    editable: true
+    virtualenv: "{{ music_agent_install_root }}/.venv"
+  become: true
+  become_user: "{{ music_agent_user }}"
+
+- name: Install environment file for systemd
+  ansible.builtin.template:
+    src: music-agent.env.j2
+    dest: /etc/default/music-agent
+    owner: root
+    group: root
+    mode: "0640"
+
+- name: Install systemd unit
+  ansible.builtin.template:
+    src: music-agent.service.j2
+    dest: /etc/systemd/system/music-agent.service
+    owner: root
+    group: root
+    mode: "0644"
+  notify: Reload systemd
+
+- name: Enable and start music-agent
+  ansible.builtin.systemd:
+    name: music-agent
+    enabled: true
+    state: started
+    daemon_reload: true

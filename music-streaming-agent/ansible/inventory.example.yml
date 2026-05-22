@@ -1,0 +1,7 @@
+all:
+  children:
+    music_pi:
+      hosts:
+        music-server:
+          ansible_host: YOUR_MUSIC_SERVER_LAN_IP_OR_DNS
+          ansible_user: YOUR_SSH_USER

@@ -1,0 +1,21 @@
+[Unit]
+Description=Cursor music streaming agent (LAN chat + MPD effects)
+After=network-online.target
+Wants=network-online.target
+# MPD may be socket-activated; ordering is best-effort:
+After=mpd.service
+
+[Service]
+Type=simple
+User={{ music_agent_user }}
+Group={{ music_agent_group }}
+WorkingDirectory={{ music_agent_install_root }}
+EnvironmentFile=-/etc/default/music-agent
+ExecStart={{ music_agent_install_root }}/.venv/bin/python -m music_agent serve --host {{ music_agent_listen_host }} --port {{ music_agent_listen_port }}
+Restart=on-failure
+
+# CPU / privacy posture: keep it small; raise only if you add heavier routers.
+Nice=5
+
+[Install]
+WantedBy=multi-user.target

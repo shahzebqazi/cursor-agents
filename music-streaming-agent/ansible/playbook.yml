@@ -1,0 +1,13 @@
+---
+# Run from a machine that can SSH to the Pi as a sudo-capable user.
+# Prerequisite: sync this repository to the Pi at `music_agent_install_root`
+# (e.g. `rsync -a --delete --exclude .git --exclude .venv ./ pi:/opt/cursor-music-streaming-agent/`).
+#
+# Example:
+#   ansible-playbook -i ansible/inventory.example.yml ansible/playbook.yml -e music_agent_install_root=/opt/cursor-music-streaming-agent
+
+- name: Install cursor-music-streaming-agent (MPD already present)
+  hosts: music_pi
+  become: true
+  roles:
+    - role: music_agent
