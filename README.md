@@ -38,7 +38,7 @@ git clone --recurse-submodules https://github.com/shahzebqazi/cursor-agents.git
 
 ## Private operator config
 
-**[my-cursor-config](https://github.com/shahzebqazi/my-cursor-config)** — personalizations, per-machine workspaces, `PI_SERVER/` sync, MacBook bundle, IDE capture/restore. Home lab handoff: `my-cursor-config/docs/WORKSPACE_AGENTS.md`.
+**[my-cursor-config](https://github.com/shahzebqazi/my-cursor-config)** — personalizations, per-machine workspaces, `PI_SERVER/` sync, MacBook bundle. Home lab handoff: `my-cursor-config/docs/WORKSPACE_AGENTS.md`. Pi deploy notes (redacted): `my-cursor-config/docs/CURSOR_AGENTS_ON_PI.md` (private clone only; local dir may be `~/Git/cursor-config/`).
 
 ## License
 

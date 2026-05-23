@@ -1,4 +1,4 @@
-# cursor-music-streaming-agent
+# music-streaming-agent
 
 This file lives under `docs/`. Shell examples assume your shell’s current working directory is the **repository root** (the parent of `docs/`).
 
@@ -8,9 +8,9 @@ LAN-facing control plane for MPD: a small **pure core** (situation → effects) 
 
 ## Shared agent conventions (public)
 
-Generic **GitHub Projects / Kanban habits**, **parallel-agent branch discipline**, and optional **Cursor** scaffolding patterns live in **[shahzebqazi/cursor-config](https://github.com/shahzebqazi/cursor-config)** (`patterns/` and `.cursor/rules/`). This repo links there so third parties can reproduce workflow guidance without private config.
+Generic **GitHub Projects / Kanban habits**, **parallel-agent branch discipline**, and optional **Cursor** scaffolding patterns live in **my-cursor-config** (`patterns/` and `.cursor/rules/`). This repo links there so third parties can reproduce workflow guidance without private config.
 
-**Private** Cursor production rules, hooks, and legally sensitive or unpublished-library workflows stay in **`my-cursor-config`** (private) or out of git entirely—this public tree must never depend on them to build or run.
+**Private** Cursor production rules, hooks, and legally sensitive or unpublished-library workflows stay in **my-cursor-config** (private) or out of git entirely—this public tree must never depend on them to build or run. Pi operator notes: `my-cursor-config/docs/CURSOR_AGENTS_ON_PI.md`.
 
 ## Install (editable, any machine with Python ≥ 3.11)
 
@@ -66,7 +66,7 @@ A typical server might use:
 
 ## Public vs private operator material
 
-| Public (`cursor-music-streaming-agent`) | Private (music server repo, `my-cursor-config`, or local only) |
+| Public (`music-streaming-agent/`) | Private (`my-pi-server-config`, `my-cursor-config`, or local only) |
 |----------------------------------------|------------------------------------------------------------------|
 | Redacted examples and `*.example.yml` | Real inventory, `host_vars`, Tailscale/WireGuard names |
 | Generic Ansible role | Production `music_agent_mpd_host`, TLS material, SSH keys |

@@ -16,12 +16,12 @@
 ## Local development (engineer laptop)
 
 - Editable install (`pip install -e .`), `MPD_HOST` pointing at a reachable MPD (local or over VPN), and tests/smoke via `music-agent plan "…"`.
-- **Cursor / other editors**: optional `.cursor/` rules can be vendored from [cursor-config](https://github.com/shahzebqazi/cursor-config); they are not required to build or run the package.
+- **Cursor / other editors**: optional `.cursor/` rules can be vendored from **my-cursor-config**; they are not required to build or run the package.
 
 ## Documentation split
 
 | Location | Audience |
 |----------|----------|
 | `docs/` here | Anyone integrating MPD + this agent |
-| [cursor-config](https://github.com/shahzebqazi/cursor-config) `patterns/` | Generic agent + GitHub workflow habits |
+| **my-cursor-config** `patterns/` | Generic agent + GitHub workflow habits |
 | Private operator repo | Secrets, real hosts, one-off library sync jobs |

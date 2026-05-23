@@ -4,7 +4,7 @@
 
 Generic **Kanban + software-engineering** guidance (Issues, Projects, `gh` CLI, safety rules) lives in the public template repo:
 
-- **[patterns/github-projects-and-swe.md](https://github.com/shahzebqazi/cursor-config/blob/main/patterns/github-projects-and-swe.md)** in **[shahzebqazi/cursor-config](https://github.com/shahzebqazi/cursor-config)**
+- **`patterns/github-projects-and-swe.md`** in **my-cursor-config** (private)
 
 ## Music-agent–specific reminders
 

@@ -12,7 +12,7 @@ Public **music-server–oriented** tooling inside **[cursor-agents](https://gith
 
 ## Personal Cursor configuration
 
-Optional private rules live in **[cursor-config](https://github.com/shahzebqazi/cursor-config)**. Generic workflow patterns are also described there under `patterns/` if you maintain a private clone.
+Optional private rules live in **my-cursor-config**. Generic workflow patterns are also described there under `patterns/` if you maintain a private clone.
 
 ## Quick install (developer)
 

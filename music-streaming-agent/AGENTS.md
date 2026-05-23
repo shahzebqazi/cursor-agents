@@ -18,6 +18,6 @@ This package lives under **[cursor-agents](https://github.com/shahzebqazi/cursor
 | [`docs/ai/CURSOR_MUSIC_BOT.md`](docs/ai/CURSOR_MUSIC_BOT.md) | Paste-ready IDE prompt for `music-agent` |
 | [`.cursor/rules/`](.cursor/rules/) | Thin Cursor pointers into `docs/agents/` |
 
-Optional private workspace handoff: **[cursor-config](https://github.com/shahzebqazi/cursor-config)** (`docs/WORKSPACE_AGENTS.md`, `patterns/`). Not required to build or run.
+Optional private workspace handoff: **my-cursor-config** (`docs/WORKSPACE_AGENTS.md`, `docs/CURSOR_AGENTS_ON_PI.md`, `patterns/`). Not required to build or run.
 
 When using GitHub Issues + Projects, one in-flight issue per agent session keeps parallel work legible.
