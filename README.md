@@ -1,44 +1,45 @@
 # cursor-agents
 
-Public catalog of **Cursor-friendly agent tools** — small, boring, composable packages you can run without private dotfiles.
+Public catalog of **Cursor agent integration**: skills, MCP guidance, rules, and small runnable packages (`doctl`, Pi, macOS, Linux, Mastodon, MPD, …).
+
+**Not in this repo:** your machine names, tokens, `~/Git` layout, or private infra — those live in **[my-cursor-config](https://github.com/shahzebqazi/my-cursor-config)** (private).
+
+## Product agents (active)
 
 | Package | Path | What it does |
 |---------|------|--------------|
-| **mastodon-agent** | [`mastodon-agent/`](mastodon-agent/) (submodule) | Post Mastodon statuses from UTF-8 drafts — canonical repo **[shahzebqazi/mastodon-agent](https://github.com/shahzebqazi/mastodon-agent)** |
-| **mastodon-agent (Cursor)** | [`mastodon-agent-cursor/`](mastodon-agent-cursor/) | Cursor rules charter; points at submodule + [`docs/SPEC.md`](mastodon-agent/docs/SPEC.md) |
-| **music-streaming-agent** | [`music-streaming-agent/`](music-streaming-agent/) | LAN MPD control agent (`music_agent` CLI + optional HTTP chat) |
+| **music-streaming-agent** | [`music-streaming-agent/`](music-streaming-agent/) | LAN MPD control (`music_agent` CLI + optional HTTP) |
+| **mastodon-agent** | [`mastodon-agent/`](mastodon-agent/) (submodule) | Post from UTF-8 drafts — **[shahzebqazi/mastodon-agent](https://github.com/shahzebqazi/mastodon-agent)** |
+| **mastodon-agent (Cursor)** | [`mastodon-agent-cursor/`](mastodon-agent-cursor/) | Cursor charter for Mastodon submodule |
+
+## Platform agents (skills + MCP stubs)
+
+| Package | Path | Scope |
+|---------|------|--------|
+| **digitalocean-agent** | [`digitalocean-agent/`](digitalocean-agent/) | `doctl`, droplets, DNS, App Platform |
+| **pi-platform-agent** | [`pi-platform-agent/`](pi-platform-agent/) | Pi SSH, systemd, Docker patterns |
+| **macos-platform-agent** | [`macos-platform-agent/`](macos-platform-agent/) | macOS dev / WM patterns (not personal dotfiles) |
+| **linux-platform-agent** | [`linux-platform-agent/`](linux-platform-agent/) | Linux desktop / server patterns |
+
+See [`docs/PLATFORM_AGENTS.md`](docs/PLATFORM_AGENTS.md) and [`docs/MCP_AND_SKILLS.md`](docs/MCP_AND_SKILLS.md).
 
 ## Hub layout
 
-- **Index:** [`docs/HUB_INDEX.md`](docs/HUB_INDEX.md) — packages vs private config vs Mac harness
-- **Retired repo names:** [`docs/RETIRED_REPOS.md`](docs/RETIRED_REPOS.md)
+- [`docs/HUB_INDEX.md`](docs/HUB_INDEX.md) — full index
+- [`docs/RETIRED_REPOS.md`](docs/RETIRED_REPOS.md) — renamed GitHub repos
 
 ## GitHub Pages
 
-- **Catalog:** [shahzebqazi.github.io/cursor-agents/](https://shahzebqazi.github.io/cursor-agents/)
-- **Mastodon product site (hero art):** [shahzebqazi.github.io/mastodon-agent/](https://shahzebqazi.github.io/mastodon-agent/) — [`docs/mastodon/`](docs/mastodon/) redirects here
-
-Enable Pages on this repo: **Settings → Pages → `/docs` on `main`**.
-
-Clone with submodules:
+- [shahzebqazi.github.io/cursor-agents/](https://shahzebqazi.github.io/cursor-agents/)
 
 ```bash
 git clone --recurse-submodules https://github.com/shahzebqazi/cursor-agents.git
 ```
 
-## Personal Cursor configuration
+## Private operator config
 
-Optional private rules and workflow notes live in **[cursor-config](https://github.com/shahzebqazi/cursor-config)** (private). Nothing in this catalog requires that repo.
-
-**Home lab (`~/Git` on Pi):** clone this repo as `cursor-agents/`; use **`music-streaming-agent/`** for MPD agent work. Workspace handoff and clone sync policy: **`cursor-config/docs/WORKSPACE_AGENTS.md`**.
-
-## Migrated repositories
-
-| Former standalone | Today |
-|-------------------|--------|
-| `mastodon-cursor-agent` | **[mastodon-agent](https://github.com/shahzebqazi/mastodon-agent)** (submodule) + `mastodon-agent-cursor/` here |
-| `cursor-music-streaming-agent` | `music-streaming-agent/` |
+**[my-cursor-config](https://github.com/shahzebqazi/my-cursor-config)** — personalizations, per-machine workspaces, `PI_SERVER/` sync, MacBook bundle, IDE capture/restore. Home lab handoff: `my-cursor-config/docs/WORKSPACE_AGENTS.md`.
 
 ## License
 
-MIT — see [LICENSE](LICENSE). Package-level licenses match unless noted in subdirectories.
+MIT — see [LICENSE](LICENSE).

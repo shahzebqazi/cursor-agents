@@ -1,28 +1,36 @@
 # Agent hub index
 
-**cursor-agents** holds **Cursor-specific integration** for public agent products. Product code and tool-agnostic specs may live in **standalone repos** linked by submodule.
+**cursor-agents** = public **skills, MCP notes, rules, and agent packages** (doctl, Pi, macOS, Linux, Mastodon, MPD, …).
+
+**my-cursor-config** = private **personalizations**, machine workspaces, and infra/repo routing.
 
 ## Packages in this monorepo
 
-| Package | Directory | Canonical product | Deploy target |
-|---------|-----------|-------------------|---------------|
-| Music / MPD | [`music-streaming-agent/`](../music-streaming-agent/) | (in-tree) | Pi LAN (`music-agent`, optional Ansible) |
-| Mastodon | [`mastodon-agent/`](../mastodon-agent/) submodule | **[shahzebqazi/mastodon-agent](https://github.com/shahzebqazi/mastodon-agent)** | Any host with `.env` |
-| Mastodon (Cursor) | [`mastodon-agent-cursor/`](../mastodon-agent-cursor/) | — | Cursor session charter only |
+| Package | Directory | Role |
+|---------|-----------|------|
+| Music / MPD | [`music-streaming-agent/`](../music-streaming-agent/) | Pi LAN MPD product agent |
+| Mastodon | [`mastodon-agent/`](../mastodon-agent/) submodule | Product repo + Cursor charter |
+| DigitalOcean | [`digitalocean-agent/`](../digitalocean-agent/) | `doctl` skills + MCP (stub) |
+| Pi platform | [`pi-platform-agent/`](../pi-platform-agent/) | SSH/systemd/Docker patterns (stub) |
+| macOS platform | [`macos-platform-agent/`](../macos-platform-agent/) | macOS dev patterns (stub) |
+| Linux platform | [`linux-platform-agent/`](../linux-platform-agent/) | Linux patterns (stub) |
+
+Skills/MCP convention: [`MCP_AND_SKILLS.md`](MCP_AND_SKILLS.md) · Platform table: [`PLATFORM_AGENTS.md`](PLATFORM_AGENTS.md).
 
 ## Not in this repo (by design)
 
 | Need | Use instead |
 |------|-------------|
-| Private workspace handoff (`~/Git` on Pi) | **[cursor-config](https://github.com/shahzebqazi/cursor-config)** — `docs/WORKSPACE_AGENTS.md` |
-| Mac satellites (AeroSpace, Leader Key, dotfiles, …) | **[my-mac-config](https://github.com/shahzebqazi/my-mac-config)** |
-| Mastodon product spec (editor-neutral) | **`mastodon-agent/docs/SPEC.md`** in submodule |
+| Your `~/Git` clone list, Pi cron, steward scripts | **[my-cursor-config](https://github.com/shahzebqazi/my-cursor-config)** |
+| DO inventory, droplet compose | **my-droplet-config** (private) |
+| Pi server scripts | **my-pi-server-config** (private) |
+| Mac Nix + satellites | **my-mac-config** (private) |
+| Public dotfile examples | **dotfiles** (public) |
 
 ## Migrated standalone repos
 
-| Former GitHub name | New location |
-|--------------------|--------------|
+| Former name | Today |
+|-------------|--------|
 | `cursor-music-streaming-agent` | `music-streaming-agent/` |
-| `mastodon-cursor-agent` | **mastodon-agent** repo + submodule here |
-
-Local archives (if any): `~/archive/*-2026-05-23.tar.gz` on the Mac.
+| `mastodon-cursor-agent` | **mastodon-agent** + submodule |
+| `cursor-config` | **my-cursor-config** (private) |
