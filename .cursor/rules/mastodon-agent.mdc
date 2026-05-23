@@ -1,0 +1,15 @@
+---
+description: Mastodon work in cursor-agents — read submodule SPEC and AGENTS charter
+alwaysApply: false
+globs:
+  - mastodon-agent/**
+  - mastodon-agent-cursor/**
+---
+
+# mastodon-agent (Cursor)
+
+- **Product authority:** `mastodon-agent/docs/SPEC.md` (submodule — tool-agnostic).
+- **Cursor charter:** `mastodon-agent-cursor/AGENTS.md`.
+- **Runtime:** `python3 mastodon-agent/scripts/post_status.py …` with `.env` in submodule root (never commit).
+- **Edits:** commit product changes in **github.com/shahzebqazi/mastodon-agent**, then bump submodule here — do not fork duplicate scripts in the monorepo tree.
+- **Artwork:** keep `mastodon-agent/docs/images/hero.png` unless asked to replace.

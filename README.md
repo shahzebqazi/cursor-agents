@@ -4,7 +4,8 @@ Public catalog of **Cursor-friendly agent tools** — small, boring, composable 
 
 | Package | Path | What it does |
 |---------|------|--------------|
-| **mastodon-agent** | [`mastodon-agent/`](mastodon-agent/) | Post Mastodon statuses from UTF-8 draft files; `.env` for credentials |
+| **mastodon-agent** | [`mastodon-agent/`](mastodon-agent/) (submodule) | Post Mastodon statuses from UTF-8 drafts — canonical repo **[shahzebqazi/mastodon-agent](https://github.com/shahzebqazi/mastodon-agent)** |
+| **mastodon-agent (Cursor)** | [`mastodon-agent-cursor/`](mastodon-agent-cursor/) | Cursor rules charter; points at submodule + [`docs/SPEC.md`](mastodon-agent/docs/SPEC.md) |
 | **music-streaming-agent** | [`music-streaming-agent/`](music-streaming-agent/) | LAN MPD control agent (`music_agent` CLI + optional HTTP chat) |
 
 ## Hub layout
@@ -15,24 +16,28 @@ Public catalog of **Cursor-friendly agent tools** — small, boring, composable 
 ## GitHub Pages
 
 - **Catalog:** [shahzebqazi.github.io/cursor-agents/](https://shahzebqazi.github.io/cursor-agents/)
-- **Mastodon mini-site (hero art preserved):** […/cursor-agents/docs/mastodon/](https://shahzebqazi.github.io/cursor-agents/docs/mastodon/)
+- **Mastodon product site (hero art):** [shahzebqazi.github.io/mastodon-agent/](https://shahzebqazi.github.io/mastodon-agent/) — [`docs/mastodon/`](docs/mastodon/) redirects here
 
 Enable Pages on this repo: **Settings → Pages → `/docs` on `main`**.
+
+Clone with submodules:
+
+```bash
+git clone --recurse-submodules https://github.com/shahzebqazi/cursor-agents.git
+```
 
 ## Personal Cursor configuration
 
 Optional private rules and workflow notes live in **[cursor-config](https://github.com/shahzebqazi/cursor-config)** (private). Nothing in this catalog requires that repo.
 
-**Home lab (`~/Git` on Pi):** clone this repo as `cursor-agents/`; use **`music-streaming-agent/`** for MPD agent work. Workspace handoff: **`cursor-config/docs/WORKSPACE_AGENTS.md`**.
-
 **Home lab (`~/Git` on Pi):** clone this repo as `cursor-agents/`; use **`music-streaming-agent/`** for MPD agent work. Workspace handoff and clone sync policy: **`cursor-config/docs/WORKSPACE_AGENTS.md`**.
 
 ## Migrated repositories
 
-These former standalone repos now redirect here:
-
-- `mastodon-cursor-agent` → `mastodon-agent/`
-- `cursor-music-streaming-agent` → `music-streaming-agent/`
+| Former standalone | Today |
+|-------------------|--------|
+| `mastodon-cursor-agent` | **[mastodon-agent](https://github.com/shahzebqazi/mastodon-agent)** (submodule) + `mastodon-agent-cursor/` here |
+| `cursor-music-streaming-agent` | `music-streaming-agent/` |
 
 ## License
 
