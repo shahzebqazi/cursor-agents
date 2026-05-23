@@ -10,7 +10,7 @@ Product-style agents in **cursor-agents** integrate Cursor with a **class** of h
 | [mastodon-agent-cursor](../mastodon-agent-cursor/) | **Active** | Cursor charter for Mastodon submodule |
 | [digitalocean-agent](../digitalocean-agent/) | **Stub** | `doctl`, droplet/DNS/App Platform skills + MCP notes |
 | [pi-platform-agent](../pi-platform-agent/) | **Stub** | Pi ops: SSH, systemd, Docker, workspace pull policy *patterns* |
-| [macos-platform-agent](../macos-platform-agent/) | **Stub** | macOS dev: shell, Homebrew, AeroSpace/Leader Key *patterns* (not personal dotfiles) |
+| [macos-platform-agent](../macos-platform-agent/) | **Active** | macOS dev + [**clear-archived-cursor-chats**](../macos-platform-agent/.cursor/skills/clear-archived-cursor-chats/SKILL.md) (7/30 day prune) |
 | [linux-platform-agent](../linux-platform-agent/) | **Stub** | Linux desktop/server: xmonad, dotfiles *patterns*, LAN services |
 
 ## Private operator config
