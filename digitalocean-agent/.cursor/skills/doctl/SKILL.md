@@ -1,6 +1,6 @@
 ---
 name: doctl
-description: Use when managing DigitalOcean droplets, DNS, App Platform, or firewalls via doctl. Public workflows only; load private inventory from the operator's my-droplet-config repo.
+description: Use when managing DigitalOcean droplets, DNS, App Platform, or firewalls via doctl. Public workflows only; load private inventory from the operator's my-droplets repo.
 ---
 
 # doctl (DigitalOcean CLI)
@@ -8,7 +8,7 @@ description: Use when managing DigitalOcean droplets, DNS, App Platform, or fire
 ## Scope
 
 - **This skill:** generic `doctl` commands, safety checks, and API patterns.
-- **Not here:** account-specific IPs, domains, or inventory JSON — read **`my-droplet-config`** on the operator machine if present.
+- **Not here:** account-specific IPs, domains, or inventory JSON — read **`my-droplets`** on the operator machine if present.
 
 ## Safety
 
@@ -34,5 +34,5 @@ See `digitalocean-agent/docs/mcp.md` when added. Until then, use shell MCP or te
 
 | Repo | Visibility | Contents |
 |------|------------|----------|
-| **my-droplet-config** | private | `home-stack/`, `digitalocean-networks/` inventory |
+| **my-droplets** | private | `home-stack/`, `digitalocean-networks/` inventory |
 | **cursor-agents** | public | This skill + future MCP notes |

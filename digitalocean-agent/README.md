@@ -8,7 +8,7 @@ Public **DigitalOcean** agent package: skills and MCP guidance for `doctl`, drop
 - Clone paths under `~/Git` for your stacks
 - Live inventory JSON
 
-Those live in private **[my-droplet-config](https://github.com/shahzebqazi/my-droplet-config)** (`digitalocean-networks/`, `home-stack/`).
+Those live in private **[my-droplets](https://github.com/shahzebqazi/my-droplets)** (`digitalocean-networks/`, `home-stack/`).
 
 ## Planned contents
 

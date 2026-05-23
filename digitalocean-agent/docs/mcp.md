@@ -33,5 +33,5 @@ Pair shell MCP with the **doctl** skill in this package. Restrict write commands
 
 | Need | Repo |
 |------|------|
-| Droplet IP, DNS zones, compose paths | `my-droplet-config` |
+| Droplet IP, DNS zones, compose paths | `my-droplets` |
 | Workspace clone list on Pi/Mac | `my-cursor-config` |

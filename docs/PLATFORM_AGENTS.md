@@ -21,7 +21,7 @@ Machine names, `~/Git` clone lists, sync cron, and consolidation state live in *
 
 | Repo | Role |
 |------|------|
-| `my-droplet-config` | DO droplet compose + inventory (private) |
+| `my-droplets` | DO droplet compose + inventory (private) |
 | `my-pi-server-config` | Pi scripts + sync anchor (private) |
 | `my-linux-server-config` | Charon / homelab Linux (private) |
 | `my-mac-config` | Mac bootstrap + satellites (private) |
