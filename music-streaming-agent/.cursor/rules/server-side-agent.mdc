@@ -1,0 +1,13 @@
+---
+description: Server-side agent role, doc placement, ethics boundary, post-merge chat close
+globs: "**/*"
+alwaysApply: false
+---
+
+# Server-side agent
+
+Follow **`docs/agents/SERVER_SIDE_AGENT.md`**, root **`AGENTS.md`**, and **`docs/agents/REVIEW_MERGE_GATES.md`**.
+
+- Canonical policy lives in **`docs/agents/`**; keep **`.cursor/rules/`** as short pointers.
+- After **`feature/*` → `dev`** merge and branch deletion: on **`dev`**, **ask the user to close this chat**; you may then discuss **backlog / bugs / features** for the next branch.
+- No illegal or unethical use of this repo; private experiments stay private; public research on law/systems belongs in a **separate** research repo.

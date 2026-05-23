@@ -1,0 +1,14 @@
+---
+description: PR test/review order, merge to dev, post-merge chat hygiene for agents
+globs: "**/*"
+alwaysApply: false
+---
+
+# Review and merge gates
+
+Follow **`docs/agents/REVIEW_MERGE_GATES.md`** and root **`AGENTS.md`** § PR lifecycle.
+
+- Agent tests **before** asking the human to test.
+- Human **code review** **before** the agent’s **PR self-review**.
+- Agent **re-tests** after self-review; then merge to **`dev`**, delete the feature branch.
+- After merge on **`dev`**: ask the user to **close the chat**; optionally steer **backlog / features / bugs**.

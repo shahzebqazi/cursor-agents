@@ -18,6 +18,8 @@ Enable Pages on this repo: **Settings → Pages → `/docs` on `main`**.
 
 Optional private rules and workflow notes live in **[cursor-config](https://github.com/shahzebqazi/cursor-config)** (private). Nothing in this catalog requires that repo.
 
+**Home lab (`~/Git` on Pi):** clone this repo as `cursor-agents/`; use **`music-streaming-agent/`** for MPD agent work. Workspace handoff and clone sync policy: **`cursor-config/docs/WORKSPACE_AGENTS.md`**.
+
 ## Migrated repositories
 
 These former standalone repos now redirect here:

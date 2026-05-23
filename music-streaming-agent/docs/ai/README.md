@@ -6,4 +6,6 @@ Put **prompts, evaluation rubrics, tool-use recipes, and other model-oriented te
 
 **Private** experimental hooks, credentials, or unpublished-library workflows belong in **`my-cursor-config`** (private) or the music server’s private docs—not in this public tree.
 
-Orchestration index for any AI working in this repo: **[`AGENTS.md`](../AGENTS.md)** (repository root).
+Orchestration index for any AI working in this repo: **[`AGENTS.md`](../../AGENTS.md)** (package root).
+
+**Operator prompt:** [`CURSOR_MUSIC_BOT.md`](CURSOR_MUSIC_BOT.md) — paste into Cursor rules or a custom agent when driving LAN `music-agent` / `mpc`.
