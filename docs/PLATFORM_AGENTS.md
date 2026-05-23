@@ -5,6 +5,7 @@ Product-style agents in **cursor-agents** integrate Cursor with a **class** of h
 | Agent / package | Status | Scope |
 |-----------------|--------|--------|
 | [music-streaming-agent](../music-streaming-agent/) | **Active** | LAN MPD control (`music_agent` CLI, optional HTTP) |
+| [music-library-agent](../music-library-agent/) | **Active** | Picard CLI ingest, quarantine, metadata (dragon SSD) |
 | [mastodon-agent](../mastodon-agent/) (submodule) | **Active** | Mastodon posting from drafts |
 | [mastodon-agent-cursor](../mastodon-agent-cursor/) | **Active** | Cursor charter for Mastodon submodule |
 | [digitalocean-agent](../digitalocean-agent/) | **Stub** | `doctl`, droplet/DNS/App Platform skills + MCP notes |

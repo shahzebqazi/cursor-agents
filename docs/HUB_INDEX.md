@@ -9,6 +9,7 @@
 | Package | Directory | Role |
 |---------|-----------|------|
 | Music / MPD | [`music-streaming-agent/`](../music-streaming-agent/) | Pi LAN MPD product agent |
+| Music library ingest | [`music-library-agent/`](../music-library-agent/) | Picard CLI, quarantine, metadata, dragon ingest |
 | Mastodon | [`mastodon-agent/`](../mastodon-agent/) submodule | Product repo **[mastodon-agent](https://github.com/shahzebqazi/mastodon-agent)** |
 | Mastodon (Cursor) | [`mastodon-agent-cursor/`](../mastodon-agent-cursor/) | Cursor charter for submodule |
 | DigitalOcean | [`digitalocean-agent/`](../digitalocean-agent/) | `doctl` skills + MCP (stub) |
