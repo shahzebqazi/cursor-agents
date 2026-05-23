@@ -1,0 +1,3 @@
+[submodule "mastodon-agent"]
+	path = mastodon-agent
+	url = https://github.com/shahzebqazi/mastodon-agent.git
