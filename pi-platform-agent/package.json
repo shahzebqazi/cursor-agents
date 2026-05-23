@@ -1,0 +1,9 @@
+{
+  "name": "@cursor-agents/pi-platform-agent",
+  "private": true,
+  "type": "module",
+  "description": "Pi headless Cursor SDK invoker for scheduled home-agent runs",
+  "dependencies": {
+    "@cursor/sdk": "^1.0.13"
+  }
+}
