@@ -2,7 +2,7 @@
 
 Public catalog of **Cursor agent integration**: skills, MCP guidance, rules, and small runnable packages (`doctl`, Pi, macOS, Linux, Mastodon, MPD, …).
 
-**Not in this repo:** your machine names, tokens, `~/Git` layout, or private infra — those live in **[my-cursor-config](https://github.com/shahzebqazi/my-cursor-config)** (private).
+**Not in this repo:** your machine names, tokens, or private infra — workspace docs live in **[cursor-config](https://github.com/shahzebqazi/cursor-config)** (public patterns); operator YAML and Pi sync live in **[my-cursor-config](https://github.com/shahzebqazi/my-cursor-config)** (private).
 
 ## Product agents (active)
 
@@ -36,9 +36,14 @@ See [`docs/PLATFORM_AGENTS.md`](docs/PLATFORM_AGENTS.md) and [`docs/MCP_AND_SKIL
 git clone --recurse-submodules https://github.com/shahzebqazi/cursor-agents.git
 ```
 
-## Private operator config
+## Workspace config
 
-**[my-cursor-config](https://github.com/shahzebqazi/my-cursor-config)** — personalizations, per-machine workspaces, `PI_SERVER/` sync, MacBook bundle. Home lab handoff: `my-cursor-config/docs/WORKSPACE_AGENTS.md`. Pi deploy notes (redacted): `my-cursor-config/docs/CURSOR_AGENTS_ON_PI.md` (private clone only; local dir may be `~/Git/cursor-config/`).
+| Repo | Role |
+|------|------|
+| **[cursor-config](https://github.com/shahzebqazi/cursor-config)** | Public workspace docs, examples, patterns (no secrets) |
+| **[my-cursor-config](https://github.com/shahzebqazi/my-cursor-config)** | Private operator layer: workspaces, `PI_SERVER/` sync, MacBook bundle |
+
+Start with `cursor-config/docs/WORKSPACE_AGENTS.md`; use the private clone only for live homelab inventory.
 
 ## License
 
