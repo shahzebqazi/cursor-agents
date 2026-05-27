@@ -12,7 +12,7 @@
 | **meta/** | [`cursor-guide-agent`](../meta/cursor-guide-agent/) | same |
 | **platform/** | *(migration pending — see legacy paths below)* | [#7](https://github.com/shahzebqazi/cursor-agents/issues/7) |
 | **products/** | *(migration pending)* | [#8](https://github.com/shahzebqazi/cursor-agents/issues/8) |
-| **employer/** | [`docs/employer/`](employer/README.md) | [#6](https://github.com/shahzebqazi/cursor-agents/issues/6) |
+| **employer/** | [`docs/employer/`](employer/README.md) | merged (PR #12) |
 
 Roadmap: [`MONOREPO_V2_ROADMAP.md`](MONOREPO_V2_ROADMAP.md)
 

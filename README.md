@@ -1,6 +1,6 @@
 # cursor-agents
 
-Public **Cursor agent toolkit**: skills, MCP notes, charters, and small runnable packages. Built for **Cursor users** who want copy-paste workflows; structured so **reviewers** can audit boundaries and proof without your private repos.
+Public **Cursor agent toolkit**: skills, MCP notes, charters, and small runnable packages.
 
 **Not in this repo:** machine names, tokens, or personal infra — see [`docs/employer/ARCHITECTURE.md`](docs/employer/ARCHITECTURE.md).
 
@@ -17,59 +17,34 @@ Public **Cursor agent toolkit**: skills, MCP notes, charters, and small runnable
 | Batch-tag a music library (Picard) | [`music-library-agent/`](music-library-agent/) |
 | Post Mastodon drafts from git | [`mastodon-agent/`](mastodon-agent/) + [`mastodon-agent-cursor/`](mastodon-agent-cursor/) |
 
+Full index: [`docs/HUB_INDEX.md`](docs/HUB_INDEX.md) · Platform table: [`docs/PLATFORM_AGENTS.md`](docs/PLATFORM_AGENTS.md)
+
 ## Monorepo v2 (in progress)
 
-Categories: **`tooling/`** · **`meta/`** · **`platform/`** *(migration pending)* · **`products/`** *(migration pending)*
+Categories: **`tooling/`** · **`meta/`** · **`platform/`** · **`products/`** (platform/products migration in [#7](https://github.com/shahzebqazi/cursor-agents/issues/7) / [#8](https://github.com/shahzebqazi/cursor-agents/issues/8))
 
 - Roadmap: [`docs/MONOREPO_V2_ROADMAP.md`](docs/MONOREPO_V2_ROADMAP.md)
 - Kanban: [GitHub Project #16](https://github.com/users/shahzebqazi/projects/16)
-- Contribute: [`CONTRIBUTING.md`](CONTRIBUTING.md) · Agent rules: [`AGENTS.md`](AGENTS.md)
-
-Legacy top-level paths (`music-streaming-agent/`, etc.) remain until migration PRs merge.
-
-## Product agents
-
-| Package | Path | What it does |
-|---------|------|--------------|
-| **music-streaming-agent** | [`music-streaming-agent/`](music-streaming-agent/) | LAN MPD control (`music_agent` CLI + optional HTTP) |
-| **music-library-agent** | [`music-library-agent/`](music-library-agent/) | Picard ingest, metadata, quarantine |
-| **mastodon-agent** | [`mastodon-agent/`](mastodon-agent/) (submodule) | Post from UTF-8 drafts — **[mastodon-agent](https://github.com/shahzebqazi/mastodon-agent)** |
-| **mastodon-agent (Cursor)** | [`mastodon-agent-cursor/`](mastodon-agent-cursor/) | Cursor charter for submodule |
-
-## Platform agents
-
-| Package | Path | Scope |
-|---------|------|--------|
-| **digitalocean-agent** | [`digitalocean-agent/`](digitalocean-agent/) | `doctl`, droplets, DNS, App Platform |
-| **pi-platform-agent** | [`pi-platform-agent/`](pi-platform-agent/) | Pi SSH, systemd, Docker, headless invoke |
-| **macos-platform-agent** | [`macos-platform-agent/`](macos-platform-agent/) | macOS dev patterns, chat prune skill |
-| **linux-platform-agent** | [`linux-platform-agent/`](linux-platform-agent/) | Linux desktop / server patterns |
-
-See [`docs/PLATFORM_AGENTS.md`](docs/PLATFORM_AGENTS.md) and [`docs/MCP_AND_SKILLS.md`](docs/MCP_AND_SKILLS.md).
+- Contribute: [`CONTRIBUTING.md`](CONTRIBUTING.md) · [`AGENTS.md`](AGENTS.md)
 
 ## For reviewers
 
-Hiring managers and recruiters: [`docs/employer/README.md`](docs/employer/README.md) (case cards + architecture).
-
-## Hub docs
-
-- [`docs/HUB_INDEX.md`](docs/HUB_INDEX.md) — full index
-- [`docs/RETIRED_REPOS.md`](docs/RETIRED_REPOS.md) — renamed GitHub repos
+[`docs/employer/README.md`](docs/employer/README.md)
 
 ## GitHub Pages
 
-- [shahzebqazi.github.io/cursor-agents/](https://shahzebqazi.github.io/cursor-agents/)
+[shahzebqazi.github.io/cursor-agents/](https://shahzebqazi.github.io/cursor-agents/)
 
 ```bash
 git clone --recurse-submodules https://github.com/shahzebqazi/cursor-agents.git
 ```
 
-## Workspace config
+## Related repos
 
 | Repo | Role |
 |------|------|
-| **[cursor-config](https://github.com/shahzebqazi/cursor-config)** | Public workspace docs, examples, patterns (no secrets) |
-| **my-cursor-config** (private) | Operator layer: workspaces, Pi sync, publish policy |
+| [cursor-config](https://github.com/shahzebqazi/cursor-config) | Public workspace docs (no secrets) |
+| my-cursor-config (private) | Operator workspaces, Pi sync |
 
 ## License
 
