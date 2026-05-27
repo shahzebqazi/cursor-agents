@@ -4,7 +4,19 @@
 
 **my-cursor-config** (private) = personalizations, machine workspaces, and infra/repo routing.
 
-## Packages in this monorepo
+## Monorepo v2 categories
+
+| Category | Packages | Kanban |
+|----------|----------|--------|
+| **tooling/** | [`git-workspace-agent`](../tooling/git-workspace-agent/) | [Project #16](https://github.com/users/shahzebqazi/projects/16) |
+| **meta/** | [`cursor-guide-agent`](../meta/cursor-guide-agent/) | same |
+| **platform/** | *(migration pending — see legacy paths below)* | [#7](https://github.com/shahzebqazi/cursor-agents/issues/7) |
+| **products/** | *(migration pending)* | [#8](https://github.com/shahzebqazi/cursor-agents/issues/8) |
+| **employer/** | [`docs/employer/`](employer/README.md) | [#6](https://github.com/shahzebqazi/cursor-agents/issues/6) |
+
+Roadmap: [`MONOREPO_V2_ROADMAP.md`](MONOREPO_V2_ROADMAP.md)
+
+## Packages in this monorepo (legacy paths)
 
 | Package | Directory | Role |
 |---------|-----------|------|

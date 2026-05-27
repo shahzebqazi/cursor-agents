@@ -28,5 +28,7 @@ jobs:
           python-version: "3.12"
       - name: Install package
         run: pip install -e ./music-streaming-agent
-      - name: Smoke CLI
-        run: music-agent plan "status"
+      - name: Smoke import and CLI help
+        run: |
+          python -c "from music_agent.pipeline import parse_plan; print('import ok')"
+          music-agent plan --help

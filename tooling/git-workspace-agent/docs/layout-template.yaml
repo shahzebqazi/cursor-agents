@@ -1,0 +1,23 @@
+# Example grouped ~/Git layout (placeholders — copy and edit locally)
+# Do not commit real hostnames, tokens, or private repo lists to cursor-agents.
+
+version: 1
+git_root: ~/Git
+
+groups:
+  Config:
+    - name: my-cursor-config
+      remote: git@github.com:YOUR_ORG/my-cursor-config.git
+  public:
+    - name: cursor-agents
+      remote: git@github.com:YOUR_ORG/cursor-agents.git
+  products:
+    - name: your-app
+      remote: git@github.com:YOUR_ORG/your-app.git
+
+machine_profiles:
+  macbook:
+    groups: [Config, public, products]
+  pi:
+    groups: [public]
+    notes: pull-only for public tooling unless publishing
