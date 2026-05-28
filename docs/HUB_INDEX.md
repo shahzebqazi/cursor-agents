@@ -10,24 +10,22 @@
 |----------|----------|--------|
 | **tooling/** | [`git-workspace-agent`](../tooling/git-workspace-agent/) | [Project #16](https://github.com/users/shahzebqazi/projects/16) |
 | **meta/** | [`cursor-guide-agent`](../meta/cursor-guide-agent/) | same |
-| **platform/** | *(migration pending — see legacy paths below)* | [#7](https://github.com/shahzebqazi/cursor-agents/issues/7) |
+| **platform/** | [`digitalocean-agent`](../platform/digitalocean-agent/), [`pi-platform-agent`](../platform/pi-platform-agent/), [`macos-platform-agent`](../platform/macos-platform-agent/), [`linux-platform-agent`](../platform/linux-platform-agent/) | [#7](https://github.com/shahzebqazi/cursor-agents/issues/7) done |
 | **products/** | *(migration pending)* | [#8](https://github.com/shahzebqazi/cursor-agents/issues/8) |
 | **employer/** | [`docs/employer/`](employer/README.md) | merged (PR #12) |
 
 Roadmap: [`MONOREPO_V2_ROADMAP.md`](MONOREPO_V2_ROADMAP.md)
 
-## Packages in this monorepo (legacy paths)
+## Packages (products — legacy top-level paths)
 
 | Package | Directory | Role |
 |---------|-----------|------|
-| Music / MPD | [`music-streaming-agent/`](../music-streaming-agent/) | Pi LAN MPD product agent |
-| Music library ingest | [`music-library-agent/`](../music-library-agent/) | Picard CLI, quarantine, metadata, dragon ingest |
-| Mastodon | [`mastodon-agent/`](../mastodon-agent/) submodule | Product repo **[mastodon-agent](https://github.com/shahzebqazi/mastodon-agent)** |
+| Music / MPD | [`music-streaming-agent/`](../music-streaming-agent/) | LAN MPD product agent |
+| Music library ingest | [`music-library-agent/`](../music-library-agent/) | Picard CLI, quarantine, metadata |
+| Mastodon | [`mastodon-agent/`](../mastodon-agent/) submodule | **[mastodon-agent](https://github.com/shahzebqazi/mastodon-agent)** |
 | Mastodon (Cursor) | [`mastodon-agent-cursor/`](../mastodon-agent-cursor/) | Cursor charter for submodule |
-| DigitalOcean | [`digitalocean-agent/`](../digitalocean-agent/) | `doctl` skills + MCP (stub) |
-| Pi platform | [`pi-platform-agent/`](../pi-platform-agent/) | SSH/systemd/Docker patterns (stub) |
-| macOS platform | [`macos-platform-agent/`](../macos-platform-agent/) | macOS dev patterns (stub) |
-| Linux platform | [`linux-platform-agent/`](../linux-platform-agent/) | Linux patterns (stub) |
+
+Moved paths: [`RETIRED_PATHS.md`](RETIRED_PATHS.md)
 
 Skills/MCP convention: [`MCP_AND_SKILLS.md`](MCP_AND_SKILLS.md) · Platform table: [`PLATFORM_AGENTS.md`](PLATFORM_AGENTS.md).
 

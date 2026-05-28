@@ -28,7 +28,7 @@ doctl apps list
 
 ## MCP
 
-See `digitalocean-agent/docs/mcp.md` when added. Until then, use shell MCP or terminal with `doctl` on PATH.
+See `platform/digitalocean-agent/docs/mcp.md` when added. Until then, use shell MCP or terminal with `doctl` on PATH.
 
 ## Related repos
 

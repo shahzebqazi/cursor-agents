@@ -24,20 +24,20 @@ Age is based on **`lastUpdatedAt`** (fallback `createdAt`). Only composers with 
 
 ```bash
 # Preview (30-day default)
-python3 macos-platform-agent/scripts/clear-archived-cursor-chats.py --dry-run
+python3 platform/macos-platform-agent/scripts/clear-archived-cursor-chats.py --dry-run
 
 # Weekly-style
-python3 macos-platform-agent/scripts/clear-archived-cursor-chats.py --days 7
+python3 platform/macos-platform-agent/scripts/clear-archived-cursor-chats.py --days 7
 
 # Monthly-style (default)
-python3 macos-platform-agent/scripts/clear-archived-cursor-chats.py --days 30
+python3 platform/macos-platform-agent/scripts/clear-archived-cursor-chats.py --days 30
 
 # One workspace only (home folder example)
-python3 macos-platform-agent/scripts/clear-archived-cursor-chats.py --days 30 \
+python3 platform/macos-platform-agent/scripts/clear-archived-cursor-chats.py --days 30 \
   --workspace-path "$HOME"
 
 # Export only — do not delete from Cursor yet
-python3 macos-platform-agent/scripts/clear-archived-cursor-chats.py --days 7 --export-only
+python3 platform/macos-platform-agent/scripts/clear-archived-cursor-chats.py --days 7 --export-only
 ```
 
 Run from **cursor-agents** repo root, or pass the full script path.
@@ -50,7 +50,7 @@ Run from **cursor-agents** repo root, or pass the full script path.
 | Cursor DB (Linux) | `~/.config/Cursor/User/globalStorage/state.vscdb` |
 | Export dir | `~/AiChats/CURSOR_TODO/archived/` |
 | Index append | `~/AiChats/CURSOR_TODO/ARCHIVED_INDEX.md` |
-| DB backup | `macos-platform-agent/scripts/.backups/` (skip with `--no-backup`) |
+| DB backup | `platform/macos-platform-agent/scripts/.backups/` (skip with `--no-backup`) |
 
 ## Safety
 

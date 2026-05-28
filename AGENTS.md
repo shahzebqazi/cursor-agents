@@ -16,7 +16,7 @@ Public [cursor-agents](https://github.com/shahzebqazi/cursor-agents): skills, MC
 |----------|------|
 | Tooling | [`tooling/`](tooling/) |
 | Meta | [`meta/`](meta/) |
-| Platform | [`platform/`](platform/) — migration [#7](https://github.com/shahzebqazi/cursor-agents/issues/7); legacy top-level dirs until merged |
+| Platform | [`platform/`](platform/) |
 | Products | [`products/`](products/) — migration [#8](https://github.com/shahzebqazi/cursor-agents/issues/8) |
 
 Roadmap: [`docs/MONOREPO_V2_ROADMAP.md`](docs/MONOREPO_V2_ROADMAP.md)

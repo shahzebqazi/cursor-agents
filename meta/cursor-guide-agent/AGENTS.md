@@ -21,10 +21,10 @@
 | User need | Package / doc |
 |-----------|----------------|
 | Git sync / dirty trees / multi-repo layout | [`tooling/git-workspace-agent`](../../tooling/git-workspace-agent/) |
-| DigitalOcean / doctl (read-first) | [`digitalocean-agent`](../../digitalocean-agent/) *(→ `platform/` after migration)* |
-| Raspberry Pi SSH, systemd, headless agent | [`pi-platform-agent`](../../pi-platform-agent/) |
-| macOS dev / prune Cursor chats | [`macos-platform-agent`](../../macos-platform-agent/) |
-| Linux desktop / server patterns | [`linux-platform-agent`](../../linux-platform-agent/) |
+| DigitalOcean / doctl (read-first) | [`platform/digitalocean-agent`](../../platform/digitalocean-agent/) |
+| Raspberry Pi SSH, systemd, headless agent | [`platform/pi-platform-agent`](../../platform/pi-platform-agent/) |
+| macOS dev / prune Cursor chats | [`platform/macos-platform-agent`](../../platform/macos-platform-agent/) |
+| Linux desktop / server patterns | [`platform/linux-platform-agent`](../../platform/linux-platform-agent/) |
 | LAN MPD music control | [`music-streaming-agent`](../../music-streaming-agent/) |
 | Music library ingest / Picard | [`music-library-agent`](../../music-library-agent/) |
 | Mastodon posting from drafts | [`mastodon-agent`](../../mastodon-agent/) submodule + [`mastodon-agent-cursor`](../../mastodon-agent-cursor/) |
