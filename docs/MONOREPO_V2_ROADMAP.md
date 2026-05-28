@@ -25,4 +25,4 @@ Moved paths: [`RETIRED_PATHS.md`](RETIRED_PATHS.md)
 | [#8](https://github.com/shahzebqazi/cursor-agents/issues/8) | Migrate products/* | Done (PR #15) |
 | [#9](https://github.com/shahzebqazi/cursor-agents/issues/9) | Root README + AGENTS.md | Done |
 | [#10](https://github.com/shahzebqazi/cursor-agents/issues/10) | my-cursor-config routing | Todo |
-| [#11](https://github.com/shahzebqazi/cursor-agents/issues/11) | GitHub Pages /employer | Todo |
+| [#11](https://github.com/shahzebqazi/cursor-agents/issues/11) | GitHub Pages employer link | Done (PR #16) |
