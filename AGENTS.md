@@ -9,6 +9,7 @@ Public [cursor-agents](https://github.com/shahzebqazi/cursor-agents): skills, MC
 | Skills, MCP notes, charters, small scripts | Operator inventory, tokens, hostnames |
 | Product agents (music, Mastodon) | Private `my-cursor-config`, `my-droplets`, `my-pi-server` |
 | Platform patterns (DO, Pi, macOS, Linux) | LinkedIn / job-search automation |
+| UX mockups, brand codegen, design guide | **[mystic-ai](https://github.com/shahzebqazi/mystic-ai)** (sibling showcase) |
 
 ## Layout
 
@@ -35,6 +36,7 @@ Product code: **[mastodon-agent](https://github.com/shahzebqazi/mastodon-agent)*
 
 | Repo | Role |
 |------|------|
+| [mystic-ai](https://github.com/shahzebqazi/mystic-ai) | Design + UX showcase (mockups, brand pipeline) |
 | [cursor-config](https://github.com/shahzebqazi/cursor-config) | Public workspace docs mirror |
 | my-cursor-config (private) | Operator workspaces, Pi sync |
 

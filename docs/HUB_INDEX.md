@@ -18,6 +18,12 @@ Kanban: [Project #16](https://github.com/users/shahzebqazi/projects/16) · Roadm
 
 Skills/MCP: [`MCP_AND_SKILLS.md`](MCP_AND_SKILLS.md) · Platform/product status: [`PLATFORM_AGENTS.md`](PLATFORM_AGENTS.md)
 
+## Sibling showcase
+
+| Need | Use |
+|------|-----|
+| Brand asset codegen, desktop UX mockups, design guide | **[mystic-ai](https://github.com/shahzebqazi/mystic-ai)** — [`docs/HUB_INDEX.md`](https://github.com/shahzebqazi/mystic-ai/blob/main/docs/HUB_INDEX.md) |
+
 ## Not in this repo (by design)
 
 | Need | Use instead |

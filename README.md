@@ -46,6 +46,7 @@ git clone --recurse-submodules https://github.com/shahzebqazi/cursor-agents.git
 
 | Repo | Role |
 |------|------|
+| [mystic-ai](https://github.com/shahzebqazi/mystic-ai) | Design showcase: brand pipeline, UX mockups, design guide |
 | [cursor-config](https://github.com/shahzebqazi/cursor-config) | Public workspace docs (no secrets) |
 | my-cursor-config (private) | Operator workspaces, Pi sync |
 
