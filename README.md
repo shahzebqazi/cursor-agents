@@ -13,19 +13,22 @@ Public **Cursor agent toolkit**: skills, MCP notes, charters, and small runnable
 | Use `doctl` read-first on DigitalOcean | [`platform/digitalocean-agent/`](platform/digitalocean-agent/) |
 | Run headless agent patterns on a Pi | [`platform/pi-platform-agent/`](platform/pi-platform-agent/) |
 | Prune archived Cursor chats on macOS | [`platform/macos-platform-agent/`](platform/macos-platform-agent/) |
-| Control LAN MPD / music streaming | [`music-streaming-agent/`](music-streaming-agent/) |
-| Batch-tag a music library (Picard) | [`music-library-agent/`](music-library-agent/) |
-| Post Mastodon drafts from git | [`mastodon-agent/`](mastodon-agent/) + [`mastodon-agent-cursor/`](mastodon-agent-cursor/) |
+| Control LAN MPD / music streaming | [`products/music-streaming-agent/`](products/music-streaming-agent/) |
+| Batch-tag a music library (Picard) | [`products/music-library-agent/`](products/music-library-agent/) |
+| Post Mastodon drafts from git | [`products/mastodon-agent/`](products/mastodon-agent/) + [`products/mastodon-agent-cursor/`](products/mastodon-agent-cursor/) |
 
 Full index: [`docs/HUB_INDEX.md`](docs/HUB_INDEX.md) · Platform table: [`docs/PLATFORM_AGENTS.md`](docs/PLATFORM_AGENTS.md)
 
-## Monorepo v2 (in progress)
+## Layout
 
-Categories: **`tooling/`** · **`meta/`** · **`platform/`** · **`products/`** (products migration: [#8](https://github.com/shahzebqazi/cursor-agents/issues/8))
+| Category | Path |
+|----------|------|
+| Tooling | [`tooling/`](tooling/) |
+| Meta | [`meta/`](meta/) |
+| Platform | [`platform/`](platform/) |
+| Products | [`products/`](products/) |
 
-- Roadmap: [`docs/MONOREPO_V2_ROADMAP.md`](docs/MONOREPO_V2_ROADMAP.md)
-- Kanban: [GitHub Project #16](https://github.com/users/shahzebqazi/projects/16)
-- Contribute: [`CONTRIBUTING.md`](CONTRIBUTING.md) · [`AGENTS.md`](AGENTS.md)
+Roadmap: [`docs/MONOREPO_V2_ROADMAP.md`](docs/MONOREPO_V2_ROADMAP.md) · Kanban: [Project #16](https://github.com/users/shahzebqazi/projects/16) · Contribute: [`CONTRIBUTING.md`](CONTRIBUTING.md) · [`AGENTS.md`](AGENTS.md)
 
 ## For reviewers
 

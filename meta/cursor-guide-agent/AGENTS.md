@@ -25,9 +25,9 @@
 | Raspberry Pi SSH, systemd, headless agent | [`platform/pi-platform-agent`](../../platform/pi-platform-agent/) |
 | macOS dev / prune Cursor chats | [`platform/macos-platform-agent`](../../platform/macos-platform-agent/) |
 | Linux desktop / server patterns | [`platform/linux-platform-agent`](../../platform/linux-platform-agent/) |
-| LAN MPD music control | [`music-streaming-agent`](../../music-streaming-agent/) |
-| Music library ingest / Picard | [`music-library-agent`](../../music-library-agent/) |
-| Mastodon posting from drafts | [`mastodon-agent`](../../mastodon-agent/) submodule + [`mastodon-agent-cursor`](../../mastodon-agent-cursor/) |
+| LAN MPD music control | [`products/music-streaming-agent`](../../products/music-streaming-agent/) |
+| Music library ingest / Picard | [`products/music-library-agent`](../../products/music-library-agent/) |
+| Mastodon posting from drafts | [`products/mastodon-agent`](../../products/mastodon-agent/) submodule + [`products/mastodon-agent-cursor`](../../products/mastodon-agent-cursor/) |
 | Hiring / portfolio narrative | [`docs/employer/README.md`](../../docs/employer/README.md) |
 | Monorepo contribution | [`CONTRIBUTING.md`](../../CONTRIBUTING.md) |
 

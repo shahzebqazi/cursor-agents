@@ -10,7 +10,7 @@ description: Read audio file tags with ffprobe for ingest planning without runni
 ```bash
 bash /mnt/dragon/Git/dragon-agent/scripts/lib/read-tags.sh   # sourced by integrate.sh
 # Or use the cursor-agents helper:
-bash music-library-agent/scripts/read-audio-tags.sh /path/to/track.flac
+bash products/music-library-agent/scripts/read-audio-tags.sh /path/to/track.flac
 ```
 
 Requires **ffprobe** and **python3**.

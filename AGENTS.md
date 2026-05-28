@@ -10,20 +10,20 @@ Public [cursor-agents](https://github.com/shahzebqazi/cursor-agents): skills, MC
 | Product agents (music, Mastodon) | Private `my-cursor-config`, `my-droplets`, `my-pi-server` |
 | Platform patterns (DO, Pi, macOS, Linux) | LinkedIn / job-search automation |
 
-## Layout (v2)
+## Layout
 
 | Category | Path |
 |----------|------|
 | Tooling | [`tooling/`](tooling/) |
 | Meta | [`meta/`](meta/) |
 | Platform | [`platform/`](platform/) |
-| Products | [`products/`](products/) — migration [#8](https://github.com/shahzebqazi/cursor-agents/issues/8) |
+| Products | [`products/`](products/) |
 
-Roadmap: [`docs/MONOREPO_V2_ROADMAP.md`](docs/MONOREPO_V2_ROADMAP.md)
+Roadmap: [`docs/MONOREPO_V2_ROADMAP.md`](docs/MONOREPO_V2_ROADMAP.md) · Moved paths: [`docs/RETIRED_PATHS.md`](docs/RETIRED_PATHS.md)
 
 ## Submodule (Mastodon)
 
-Product code: **[mastodon-agent](https://github.com/shahzebqazi/mastodon-agent)** (`mastodon-agent/` submodule). Commit upstream, then bump the pointer. Cursor glue: `mastodon-agent-cursor/` only.
+Product code: **[mastodon-agent](https://github.com/shahzebqazi/mastodon-agent)** (`products/mastodon-agent/` submodule). Commit upstream, then bump the pointer. Cursor glue: `products/mastodon-agent-cursor/` only.
 
 ## Before you edit
 

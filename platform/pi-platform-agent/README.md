@@ -46,7 +46,7 @@ Installs **nvm + Node 20**, `npm install` for `@cursor/sdk`, and a **Python venv
 |------|------|
 | Pi timers, `home-agent-run.sh`, publish policy | **my-cursor-config** (`PI_SERVER/home-steward/`) |
 | Ampache/MPD deploy, OS slices | **my-pi-server-config** |
-| MPD control plane product | **music-streaming-agent** (this monorepo) |
+| MPD control plane product | **products/music-streaming-agent** (this monorepo) |
 
 ## Skills
 

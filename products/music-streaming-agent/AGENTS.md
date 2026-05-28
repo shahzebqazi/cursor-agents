@@ -1,6 +1,6 @@
 # Agents
 
-This package lives under **[cursor-agents](https://github.com/shahzebqazi/cursor-agents)** at `music-streaming-agent/`.
+This package lives under **[cursor-agents](https://github.com/shahzebqazi/cursor-agents)** at `products/music-streaming-agent/`.
 
 ## Read order (server-side agent)
 
