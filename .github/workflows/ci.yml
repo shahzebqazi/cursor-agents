@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Byte-compile posting script (submodule)
-        run: python3 -m compileall -q mastodon-agent/scripts
+        run: python3 -m compileall -q products/mastodon-agent/scripts
 
   music-streaming-agent:
     runs-on: ubuntu-latest
@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install package
-        run: pip install -e ./music-streaming-agent
+        run: pip install -e ./products/music-streaming-agent
       - name: Smoke import and CLI help
         run: |
           python -c "from music_agent.pipeline import parse_plan; print('import ok')"

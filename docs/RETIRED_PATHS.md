@@ -9,4 +9,11 @@ Top-level platform dirs moved under `platform/` in PR #14 (issue #7).
 | `macos-platform-agent/` | `platform/macos-platform-agent/` |
 | `linux-platform-agent/` | `platform/linux-platform-agent/` |
 
-Product agents still at repo root until [#8](https://github.com/shahzebqazi/cursor-agents/issues/8).
+## Products (PR #15, issue #8)
+
+| Old path | New path |
+|----------|----------|
+| `music-streaming-agent/` | `products/music-streaming-agent/` |
+| `music-library-agent/` | `products/music-library-agent/` |
+| `mastodon-agent/` | `products/mastodon-agent/` (submodule) |
+| `mastodon-agent-cursor/` | `products/mastodon-agent-cursor/` |

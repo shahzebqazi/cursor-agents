@@ -6,7 +6,7 @@ Batch-tag libraries with Picard while keeping quarantine and metadata rules expl
 
 ## Approach
 
-[`music-library-agent`](../../music-library-agent/): ingest and Picard batch skills, helper scripts with documented I/O.
+[`products/music-library-agent`](../../products/music-library-agent/): ingest and Picard batch skills, helper scripts with documented I/O.
 
 ## Outcome
 

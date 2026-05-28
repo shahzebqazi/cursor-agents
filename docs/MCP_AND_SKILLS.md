@@ -11,7 +11,7 @@
 | **Skills** | `doctl` workflows, Pi SSH/systemd, Linux desktop, macOS tooling | No hostnames, no API tokens, no `~/Git` layout |
 | **MCP** | Documented server configs (HTTP/SSE, stdio) with env var *names* only | Ship `.example` env files; never real secrets |
 | **Rules** | `.cursor/rules/*.mdc` for product agents | Generic behavior, not personal prefs |
-| **Packages** | `music-streaming-agent/`, `platform/digitalocean-agent/`, … | Runnable or charter-only subtrees |
+| **Packages** | `products/`, `platform/`, `tooling/`, … | Runnable or charter-only subtrees |
 
 ## What belongs in my-cursor-config
 

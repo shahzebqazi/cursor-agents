@@ -39,6 +39,6 @@ See [`docs/employer/ARCHITECTURE.md`](docs/employer/ARCHITECTURE.md) for the pub
 
 ```bash
 git submodule update --init --recursive
-pip install -e ./music-streaming-agent && music-agent plan --help
-python3 -m compileall -q mastodon-agent/scripts
+pip install -e ./products/music-streaming-agent && music-agent plan --help
+python3 -m compileall -q products/mastodon-agent/scripts
 ```

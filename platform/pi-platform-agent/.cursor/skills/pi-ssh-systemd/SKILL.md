@@ -26,5 +26,5 @@ Set `PI_HOST` / `PI_USER` from private config — never hardcode in this public 
 
 ## Related
 
-- **music-streaming-agent** — MPD product agent
+- **products/music-streaming-agent** — MPD product agent
 - **my-pi-server-config** — your Pi repo

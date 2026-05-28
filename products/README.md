@@ -1,5 +1,10 @@
 # products/
 
-End-user workflow agents. Migration from top-level dirs: [#8](https://github.com/shahzebqazi/cursor-agents/issues/8).
+| Package | Path |
+|---------|------|
+| Music streaming (MPD) | [`music-streaming-agent/`](music-streaming-agent/) |
+| Music library ingest | [`music-library-agent/`](music-library-agent/) |
+| Mastodon (product) | [`mastodon-agent/`](mastodon-agent/) submodule |
+| Mastodon (Cursor) | [`mastodon-agent-cursor/`](mastodon-agent-cursor/) |
 
-Until merged, use legacy paths at repo root (`music-streaming-agent/`, etc.).
+Moved from repo root in PR #15 (issue #8). Old paths: [`docs/RETIRED_PATHS.md`](../docs/RETIRED_PATHS.md).
