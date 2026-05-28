@@ -1,5 +1,10 @@
 # platform/
 
-Cloud and OS agent packages. Migration from top-level dirs: [#7](https://github.com/shahzebqazi/cursor-agents/issues/7).
+| Package | Path |
+|---------|------|
+| DigitalOcean | [`digitalocean-agent/`](digitalocean-agent/) |
+| Pi | [`pi-platform-agent/`](pi-platform-agent/) |
+| macOS | [`macos-platform-agent/`](macos-platform-agent/) |
+| Linux | [`linux-platform-agent/`](linux-platform-agent/) |
 
-Until merged, use legacy paths: `digitalocean-agent/`, `pi-platform-agent/`, `macos-platform-agent/`, `linux-platform-agent/` at repo root.
+Table: [`docs/PLATFORM_AGENTS.md`](../docs/PLATFORM_AGENTS.md)

@@ -16,7 +16,7 @@ Keeps an outbound connection so **cloud** agents can run tools on this host ([do
 
 ```bash
 cd ~/Git/my-cursor-config
-agent worker start --name iconoclast-audio-pi-server
+agent worker start --name your-pi-host
 ```
 
 On the Pi, `my-cursor-config` ships `cursor-agent-worker.service` (user systemd) — enable via `install-home-agent-timers.sh`.
@@ -24,7 +24,8 @@ On the Pi, `my-cursor-config` ships `cursor-agent-worker.service` (user systemd)
 **Install (on the Pi, no sudo):**
 
 ```bash
-bash ~/Git/cursor-agents/pi-platform-agent/scripts/setup-runtime.sh
+# from cursor-agents repo root
+bash platform/pi-platform-agent/scripts/setup-runtime.sh
 ```
 
 Installs **nvm + Node 20**, `npm install` for `@cursor/sdk`, and a **Python venv** with `cursor-sdk` (systemd uses the venv when `node` is not on PATH).
@@ -37,7 +38,7 @@ Installs **nvm + Node 20**, `npm install` for `@cursor/sdk`, and a **Python venv
 |----------|---------|
 | `CURSOR_AGENT_MODEL` | `composer-2.5` |
 | `HOME_AGENT_INVOKE_SCRIPT` | this repo's `scripts/invoke-cursor-agent.mjs` |
-| `HOME_AGENT_PI_PLATFORM_ROOT` | `~/Git/cursor-agents/pi-platform-agent` |
+| `HOME_AGENT_PI_PLATFORM_ROOT` | this package directory (`platform/pi-platform-agent`) |
 
 ## Private handoff
 

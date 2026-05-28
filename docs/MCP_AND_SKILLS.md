@@ -11,7 +11,7 @@
 | **Skills** | `doctl` workflows, Pi SSH/systemd, Linux desktop, macOS tooling | No hostnames, no API tokens, no `~/Git` layout |
 | **MCP** | Documented server configs (HTTP/SSE, stdio) with env var *names* only | Ship `.example` env files; never real secrets |
 | **Rules** | `.cursor/rules/*.mdc` for product agents | Generic behavior, not personal prefs |
-| **Packages** | `music-streaming-agent/`, `mastodon-agent/`, `digitalocean-agent/`, … | Runnable or charter-only subtrees |
+| **Packages** | `music-streaming-agent/`, `platform/digitalocean-agent/`, … | Runnable or charter-only subtrees |
 
 ## What belongs in my-cursor-config
 
@@ -49,7 +49,7 @@ Skills here should be **copy-friendly**: assume the reader will fill hostnames a
 
 ## Adding a new platform agent
 
-1. Create `<platform>-agent/` under this repo (see `digitalocean-agent/` stub).
+1. Create `platform/<name>-agent/` (see `platform/digitalocean-agent/` stub).
 2. Add skills + MCP docs; keep secrets out of git.
 3. Link from [`HUB_INDEX.md`](HUB_INDEX.md) and [`PLATFORM_AGENTS.md`](PLATFORM_AGENTS.md).
 4. If you need *your* droplet IP, Pi hostname, or repo clone list → document the handoff in **my-cursor-config** only.

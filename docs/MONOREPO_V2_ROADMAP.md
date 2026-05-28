@@ -13,7 +13,7 @@ cursor-agents/
 └── docs/employer/
 ```
 
-Legacy top-level package dirs remain until [#7](https://github.com/shahzebqazi/cursor-agents/issues/7) and [#8](https://github.com/shahzebqazi/cursor-agents/issues/8) merge.
+Platform agents live under `platform/`. Product agents remain at top level until [#8](https://github.com/shahzebqazi/cursor-agents/issues/8).
 
 ## Issues
 
@@ -24,7 +24,7 @@ Legacy top-level package dirs remain until [#7](https://github.com/shahzebqazi/c
 | [#4](https://github.com/shahzebqazi/cursor-agents/issues/4) | git-workspace-agent | Done (PR #12) |
 | [#5](https://github.com/shahzebqazi/cursor-agents/issues/5) | cursor-guide-agent | Done (PR #12) |
 | [#6](https://github.com/shahzebqazi/cursor-agents/issues/6) | docs/employer | Done (PR #12) |
-| [#7](https://github.com/shahzebqazi/cursor-agents/issues/7) | Migrate platform/* | Todo |
+| [#7](https://github.com/shahzebqazi/cursor-agents/issues/7) | Migrate platform/* | Done (PR #14) |
 | [#8](https://github.com/shahzebqazi/cursor-agents/issues/8) | Migrate products/* | Todo |
 | [#9](https://github.com/shahzebqazi/cursor-agents/issues/9) | Root README + AGENTS.md | Partial |
 | [#10](https://github.com/shahzebqazi/cursor-agents/issues/10) | my-cursor-config routing | Todo |

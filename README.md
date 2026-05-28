@@ -10,9 +10,9 @@ Public **Cursor agent toolkit**: skills, MCP notes, charters, and small runnable
 |------------|---------|
 | Fix git sync / dirty trees / multi-repo layout | [`tooling/git-workspace-agent/`](tooling/git-workspace-agent/) |
 | Find which package owns my task | [`meta/cursor-guide-agent/`](meta/cursor-guide-agent/) |
-| Use `doctl` read-first on DigitalOcean | [`digitalocean-agent/`](digitalocean-agent/) |
-| Run headless agent patterns on a Pi | [`pi-platform-agent/`](pi-platform-agent/) |
-| Prune archived Cursor chats on macOS | [`macos-platform-agent/`](macos-platform-agent/) |
+| Use `doctl` read-first on DigitalOcean | [`platform/digitalocean-agent/`](platform/digitalocean-agent/) |
+| Run headless agent patterns on a Pi | [`platform/pi-platform-agent/`](platform/pi-platform-agent/) |
+| Prune archived Cursor chats on macOS | [`platform/macos-platform-agent/`](platform/macos-platform-agent/) |
 | Control LAN MPD / music streaming | [`music-streaming-agent/`](music-streaming-agent/) |
 | Batch-tag a music library (Picard) | [`music-library-agent/`](music-library-agent/) |
 | Post Mastodon drafts from git | [`mastodon-agent/`](mastodon-agent/) + [`mastodon-agent-cursor/`](mastodon-agent-cursor/) |
@@ -21,7 +21,7 @@ Full index: [`docs/HUB_INDEX.md`](docs/HUB_INDEX.md) · Platform table: [`docs/P
 
 ## Monorepo v2 (in progress)
 
-Categories: **`tooling/`** · **`meta/`** · **`platform/`** · **`products/`** (platform/products migration in [#7](https://github.com/shahzebqazi/cursor-agents/issues/7) / [#8](https://github.com/shahzebqazi/cursor-agents/issues/8))
+Categories: **`tooling/`** · **`meta/`** · **`platform/`** · **`products/`** (products migration: [#8](https://github.com/shahzebqazi/cursor-agents/issues/8))
 
 - Roadmap: [`docs/MONOREPO_V2_ROADMAP.md`](docs/MONOREPO_V2_ROADMAP.md)
 - Kanban: [GitHub Project #16](https://github.com/users/shahzebqazi/projects/16)
