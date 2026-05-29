@@ -7,7 +7,7 @@ Public [cursor-agents](https://github.com/shahzebqazi/cursor-agents): skills, MC
 | In scope | Out of scope |
 |----------|----------------|
 | Skills, MCP notes, charters, small scripts | Operator inventory, tokens, hostnames |
-| Product agents (music, Mastodon) | Private `my-cursor-config`, `my-droplets`, `my-pi-server` |
+| Product agents (music, Mastodon) | Private `my-cursor-config`, `my-servers`, `my-pi-server` |
 | Platform patterns (DO, Pi, macOS, Linux) | LinkedIn / job-search automation |
 | UX mockups, brand codegen, design guide | **[mystic-ai](https://github.com/shahzebqazi/mystic-ai)** (sibling showcase) |
 

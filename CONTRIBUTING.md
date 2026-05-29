@@ -31,7 +31,7 @@ One issue per PR when possible. Example: `feature/epic-01-scaffold-tooling-meta-
 | In this repo | Not here |
 |--------------|----------|
 | Skills, MCP notes, public charters | Tokens, hostnames, personal clone trees |
-| Runnable agent packages | `my-cursor-config`, `my-droplets`, `my-pi-server` internals |
+| Runnable agent packages | `my-cursor-config`, `my-servers`, `my-pi-server` internals |
 
 See [`docs/employer/ARCHITECTURE.md`](docs/employer/ARCHITECTURE.md) for the public/private boundary.
 

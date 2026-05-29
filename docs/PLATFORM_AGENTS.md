@@ -28,5 +28,5 @@ Machine names, `~/Git` clone lists, sync cron: **my-cursor-config**.
 
 | Repo | Role |
 |------|------|
-| `my-droplets` | DO compose + inventory (private) |
+| `my-servers` | DO compose + inventory (private) |
 | `my-pi-server` | Pi scripts + sync anchor (private) |
