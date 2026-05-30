@@ -1,20 +1,23 @@
 # Branding audit tasks — cursor-agents
 
-**Audit:** [`my-linkedin/docs/audits/2026-05-28-branding-audit.md`](../../Personal/social/linkedin/docs/audits/2026-05-28-branding-audit.md)  
+**Status:** 2026-05-30 — employer path partial; architecture demo open  
+**Audit (historical):** [`social/linkedin/docs/audits/2026-05-28-branding-audit.md`](../../Personal/social/linkedin/docs/audits/2026-05-28-branding-audit.md)  
 **Score:** 8/10 · Canon project #2
 
-## P1 — Architecture diagram + demo
+## P1 — Architecture diagram + demo (open)
 
-- Add `docs/assets/architecture.svg` or Mermaid (tooling / platform / products)
-- Add 30s demo GIF or Pages walkthrough link
-- Place after logo / pitch, before “Start here” table
-- **Acceptance:** Layout clear in one screen
+- [ ] Add `docs/assets/architecture.svg` or Mermaid (tooling / platform / products)
+- [ ] Add 30s demo GIF or Pages walkthrough link
+- [ ] Place after logo / pitch, before “Start here” table
 
-## P1 — Employer path
+**Acceptance:** Layout clear in one screen
 
-- Link **For reviewers** → `docs/employer/README.md` in first paragraph
-- **Acceptance:** ≤2 clicks from README
+## P1 — Employer path (partial 2026-05-30)
 
-## P2
+- [x] Employer-safe overview linked from README lede → `docs/employer/ARCHITECTURE.md`
+- [x] Hiring-manager summary → `docs/employer/README.md` (Related section)
+- [ ] Optional: “For reviewers” link in **first paragraph** (≤2 clicks without scrolling)
 
-Optional release tag or changelog. LinkedIn Featured: `my-linkedin` repo-tasks P1-6.
+## P2 (open)
+
+Optional release tag or changelog. LinkedIn Featured: `social/linkedin` repo-tasks P1-6.
